@@ -31,7 +31,7 @@ the Dafiti E-Commerce platform.
    even completly different database products (only requirement is it needs to
    be opensource)
 
-##Alternative One:
+## Alternative One:
   Deploying a postgreSQL server and using for the major queries a dirties reads, setting the isolation level for read uncommitted
   postgre and oracle has a pretty good solution taking  the considerations of heavily reads with moderated writes
   no extensive normalization looking for avoid jumps on queries.
@@ -39,7 +39,7 @@ the Dafiti E-Commerce platform.
   deploy server using the following schema: (only for product)
  ![schema](postgre.png)
 
-##Alternative Two:
+## Alternative Two:
   Deploying a MongoDB database upper 3.0vs, 
   settign replica set for balance the reads and write tasks 
   ![mongoschema](mongoSchema.PNG)
@@ -47,7 +47,7 @@ the Dafiti E-Commerce platform.
   Validation for product identifier 
   ![validation](validationMSchema.png)
 
-  
+
 
 
 
