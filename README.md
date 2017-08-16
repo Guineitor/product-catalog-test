@@ -31,8 +31,24 @@ the Dafiti E-Commerce platform.
    even completly different database products (only requirement is it needs to
    be opensource)
 
-*How to present your solution:* Show us what your database design: might be
- SQL files, JSON schemas, or a text file explaining your intents.
+##Alternative One:
+  Deploying a postgreSQL server and using for the major queries a dirties reads, setting the isolation level for read uncommitted
+  postgre and oracle has a pretty good solution taking  the considerations of heavily reads with moderated writes
+  no extensive normalization looking for avoid jumps on queries.
+  master/slave sctructure for replication and balance
+  deploy server using the following schema: (only for product)
+ ![schema](postgre.png)
+
+##Alternative Two:
+  Deploying a MongoDB database upper 3.0vs, 
+  settign replica set for balance the reads and write tasks 
+  ![mongoschema](mongoSchema.PNG)
+
+  Validation for product identifier 
+  ![validation](validationMSchema.png)
+
+  
+
 
 
 2. Write a filter and a validation for the input data of the WMS (service as
