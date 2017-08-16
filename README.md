@@ -37,7 +37,8 @@ the Dafiti E-Commerce platform.
   no extensive normalization looking for avoid jumps on queries.
   master/slave sctructure for replication and balance
   deploy server using the following schema: (only for product)
- ![schema](postgre.png)
+
+ ![schema](postgreSQL.png)
 
 ## Alternative Two:
   Deploying a MongoDB database upper 3.0vs, 
