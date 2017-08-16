@@ -49,9 +49,6 @@ the Dafiti E-Commerce platform.
   ![validation](validationMSchema.png)
 
 
-
-
-
 2. Write a filter and a validation for the input data of the WMS (service as
    described below, take care of the specification). You can use a language of
    your choice, no pseudo-code is allowed, no framework must be used.
@@ -69,12 +66,7 @@ the Dafiti E-Commerce platform.
    external tools or frameworks allowed). As the time might be already tight,
    at least sketch out some ideas.
 
-*How to present your solution:* You may write real code, or you could write
- pseudo-code, though. You could also just write some ideas and concepts on a
- piece of paper (please don't take this seriously and use a text editor and
- save as mark down or text format - hand written letters can be hard to read :p )
- or create some fancy diagrams for your solution.
- In the end: we need to be able to understand what's going on.
+##  [Answer](task_3_recoveryAndBadRequestSit.txt) || [Code](NotIMplemente.java)
 
 ## Technical Details
 There are a couple of backend webservices involved. You don't need to care about
