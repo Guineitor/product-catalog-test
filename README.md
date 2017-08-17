@@ -56,6 +56,8 @@ the Dafiti E-Commerce platform.
    your choice, no pseudo-code is allowed, no framework must be used.
    Note: We should be somehow able to execute the solution (e.g. run script,
    executable, unit test, etc.).
+## [Validation](src/main/java/demo/validation/ProductJson.java) 
+
 
 *How to present your solution:* WRITE CODE IN WHATEVER LANGUAGE YOU WANT
  (REMEMBER: WE NEED TO BE ABLE TO RUN THE CODE, SO PLEASE TELL US HOW, E.G.
