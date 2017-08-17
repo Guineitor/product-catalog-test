@@ -70,7 +70,7 @@ the Dafiti E-Commerce platform.
    external tools or frameworks allowed). As the time might be already tight,
    at least sketch out some ideas.
 
-##  [Answer](task_3_recoveryAndBadRequestSit.txt) || [Code](NotIMplemente.java)
+##  [Answer](tk3/README.md) || [Code](src/main/java/demo/pr/ProductNotFoundException.java)
 
 ## Technical Details
 There are a couple of backend webservices involved. You don't need to care about
