@@ -18,6 +18,7 @@
 - [Git client/ Git Windows](https://git-scm.com)
 - [Java JDK](http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html)
 
+
 ## The project
 Product Catalog
 
@@ -37,7 +38,7 @@ the Dafiti E-Commerce platform.
   postgre and oracle has a pretty good solution taking  the considerations of heavily reads with moderated writes
   no extensive normalization looking for avoid jumps on queries.
   master/slave sctructure for replication and balance
-  deploy server using the following schema: (only for product)spri
+  deploy server using the following schema: (only for product)
 
  ![schema](postgreSQL.png)
 
